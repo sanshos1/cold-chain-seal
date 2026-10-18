@@ -1,0 +1,26 @@
+{
+  "recordType": "synthetic authorization smoke test; no physical shipment or safety disposition",
+  "lotId": "CCS-SMOKE-1792347630",
+  "contractAddress": "0x451482b35d803b9f04f0F1a4A738414d606B7356",
+  "transactions": {
+    "seal": "0xa86166ac57349ef97ad4df417e323230ace6ef215c732bc80a8fd747f9ce6d6d",
+    "cancel": "0xcf9ef214cad66ea63f7d45d41fa2450156e083e357fb6ebee642f7de0e6d8e9f"
+  },
+  "readback": {
+    "breached_intervals": [],
+    "conditions": [],
+    "digests": [],
+    "id": "CCS-SMOKE-1792347630",
+    "product": "Synthetic calibration lot; no physical goods",
+    "rationale": "",
+    "receiver": "0xCAFA30BF94D4fb01146588a1b7901BD85E7DbD0f",
+    "receiver_note": "",
+    "shipper": "0xAD049E0Edc298C97552eD60071a35bfc60181FD4",
+    "sources": [
+      "https://github.com/sanshos1/cold-chain-seal",
+      "https://offcut-relay.ranko5180.chatgpt.site"
+    ],
+    "state": "CANCELLED",
+    "verdict": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "contract": "0x451482b35d803b9f04f0F1a4A738414d606B7356",
+  "deployTx": "0xf21ff39ae200cefe1592bfc3cd5c60b63d2b228c4d371e34ec098869f7cb671b",
+  "network": "StudioNet",
+  "deployer": "0xAD049E0Edc298C97552eD60071a35bfc60181FD4",
+  "status": "FINALIZED",
+  "consensus": "MAJORITY_AGREE",
+  "execution": "SUCCESS",
+  "sourceCommit": "ee1e52e98365c9e5555a862ba412060df36589d3",
+  "repository": "https://github.com/sanshos1/cold-chain-seal"
+}

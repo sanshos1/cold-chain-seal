@@ -36,5 +36,9 @@ python -m pytest -q
 genvm-lint lint contracts/contract.py
 ```
 
-No deployment is claimed in this revision. A later release must bind the deployed byte source to a reviewed commit and demonstrate `SEALED → INSPECTED → RECEIVED|QUARANTINED` with finalized transaction receipts.
+## StudioNet release
+
+The reviewed source at commit `ee1e52e98365c9e5555a862ba412060df36589d3` is deployed at [`0x451482b35d803b9f04f0F1a4A738414d606B7356`](https://explorer-studio.genlayer.com/address/0x451482b35d803b9f04f0F1a4A738414d606B7356). Deployment finalized with `MAJORITY_AGREE / SUCCESS`; the receipt is recorded in `deployment.json`.
+
+`evidence/live-run.json` records a synthetic `SEALED → CANCELLED` authorization rehearsal and canonical readback. It contains no physical shipment and no safety disposition. The evidence-dependent inspection path remains technically tested but not field-verified until independently controlled product, custody, sensor, and receiving sources are available.
 
